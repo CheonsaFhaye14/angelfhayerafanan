@@ -1,46 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Personal Site</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #c8a6ff, #8ac6ff);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-    .container {
-      background: white;
-      padding: 40px;
-      border-radius: 20px;
-      box-shadow: 0 5px 25px rgba(0,0,0,0.15);
-      text-align: center;
-      animation: fadeIn 1.2s ease-in-out;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-      color: #6a4bc3;
-    }
-    p {
-      font-size: 1.2rem;
-      color: #444;
-    }
-    @keyframes fadeIn {
-      0% { opacity: 0; transform: translateY(20px); }
-      100% { opacity: 1; transform: translateY(0); }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angel Fhaye Rafanan | Website</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Angel Fhaye Y. Rafanan</h1>
-    <p>Welcome to my website ✨</p>
-  </div>
+
+<div class="content-wrapper" id="contentWrapper">
+
+  <button class="menu-btn" id="menuBtn">☰</button>
+
+  <iframe class="content" name="contentFrame" src="home.html"></iframe>
+
+</div>
+
+<div class="sidebar" id="sidebar">
+  <h2>Menu</h2>
+  <a href="home.html" target="contentFrame">Home</a>
+  <a href="about.html" target="contentFrame">About Me</a>
+  <a href="projects.html" target="contentFrame">Projects</a>
+  <a href="contact.html" target="contentFrame">Contact</a>
+</div>
+
+<script src="sidebar.js"></script>
 </body>
 </html>

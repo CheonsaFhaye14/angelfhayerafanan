@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Angel Fhaye Rafanan</title>
+  <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+
+  <!-- Floating particles -->
+  <div class="particle" style="top:10%; left:20%; animation-delay: 0s;"></div>
+  <div class="particle" style="top:50%; left:10%; animation-delay: 1s;"></div>
+  <div class="particle" style="top:95%; left:40%; animation-delay: 2s;"></div>
+  <div class="particle" style="top:80%; left:80%; animation-delay: 3s;"></div>
+  <div class="particle" style="top:20%; left:90%; animation-delay: 4s;"></div>
+  <div class="particle" style="top:30%; left:60%; animation-delay: 2.5s;"></div>
+  <div class="particle" style="top:70%; left:30%; animation-delay: 1.5s;"></div>
+
+  <div class="projects-container">
+    <!-- Project 1 -->
+    <div class="project-card">
+      <h2>Personal Portfolio</h2>
+      <div class="project-images">
+        <img src="portfolio01.png" alt="Portfolio Screenshot 1" class="clickable-img">
+        <img src="portfolio02.png" alt="Portfolio Screenshot 2" class="clickable-img">
+      </div>
+      <p>A personal website to showcase my skills, projects, and contact info, built with HTML, CSS, and JavaScript.</p>
+      <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+      <a href="https://github.com/CheonsaFhaye14/angelfhayerafanan" target="_blank"  rel="noopener noreferrer">View on GitHub</a>
+    </div>
+
+   <!-- Project 2 --> 
+<div class="project-card">
+  <h2>Smart Dental App</h2>
+  <div class="project-images">
+    <img src="app1.jpg" alt="ToothPix App Screenshot with 3D Teeth Model" class="clickable-img">
+    <img src="app2.jpg" alt="ToothPix App Screenshot with 3D Teeth Model" class="clickable-img">
+  </div>
+  <p>Mobile app for dental health monitoring with a 3D teeth model viewer, built using Flutter for cross-platform functionality.</p>
+  <p><strong>Technologies:</strong> Dart, Flutter, PostgreSQL, 3D Model Integration</p>
+  <!-- <a href="https://github.com/CheonsaFhaye14/ToothPix" target="_blank" rel="noopener noreferrer">View on GitHub</a> -->
+</div>
+
+
+    <!-- Project 3 -->
+  <div class="project-card">
+  <h2>Smart Dental Admin Website</h2>
+  <div class="project-images">
+    <img src="web1.png" alt="Smart Dental Admin Website Screenshot" class="clickable-img">
+     <img src="web2.png" alt="Smart Dental Admin Website Screenshot" class="clickable-img">
+ </div>
+  <p>An admin dashboard for managing patient records and dental appointments. Features include user management, data tracking, and a responsive interface for efficient administration.</p>
+  <p><strong>Technologies:</strong> React, Node.js, CSS, PostgreSQL</p>
+  <a href="https://github.com/CheonsaFhaye14/ToothPix-website" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+</div>
+
+  </div>
+
+  <!-- Lightbox modal -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="Enlarged project screenshot">
+  </div>
+
+  <script src="projects.js"></script>
+</body>
+</html>
